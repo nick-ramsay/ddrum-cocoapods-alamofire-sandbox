@@ -1,14 +1,14 @@
 //
-//  RememberTheAlamoTests.swift
-//  RememberTheAlamoTests
+//  iOSAlamofireSandboxTests.swift
+//  iOSAlamofireSandboxTests
 //
 //  Created by Nick Ramsay on 10/7/2024.
 //
 
 import XCTest
-@testable import RememberTheAlamo
+@testable import iOSAlamofireSandbox
 
-final class RememberTheAlamoTests: XCTestCase {
+final class iOSAlamofireSandboxTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

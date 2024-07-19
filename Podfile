@@ -1,7 +1,7 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
-target 'RememberTheAlamo' do
+target 'iOSAlamofireSandbox' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
@@ -12,14 +12,14 @@ target 'RememberTheAlamo' do
   pod 'DatadogInternal'
   pod 'DatadogAlamofireExtension', '~> 2.14'
 
-  # Pods for RememberTheAlamo
+  # Pods for iOSAlamofireSandbox
 
-  target 'RememberTheAlamoTests' do
+  target 'iOSAlamofireSandboxTests' do
     inherit! :search_paths
     # Pods for testing
   end
 
-  target 'RememberTheAlamoUITests' do
+  target 'iOSAlamofireSandboxUITests' do
     # Pods for testing
   end
 

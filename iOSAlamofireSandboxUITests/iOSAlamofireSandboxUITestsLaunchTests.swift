@@ -1,13 +1,13 @@
 //
-//  RememberTheAlamoUITestsLaunchTests.swift
-//  RememberTheAlamoUITests
+//  iOSAlamofireSandboxUITestsLaunchTests.swift
+//  iOSAlamofireSandboxUITests
 //
 //  Created by Nick Ramsay on 10/7/2024.
 //
 
 import XCTest
 
-final class RememberTheAlamoUITestsLaunchTests: XCTestCase {
+final class iOSAlamofireSandboxUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

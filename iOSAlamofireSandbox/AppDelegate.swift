@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  RememberTheAlamo
+//  iOSAlamofireSandbox
 //
 //  Created by Nick Ramsay on 10/7/2024.
 //
@@ -25,8 +25,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        let appID = "5b6ef361-f81a-4220-8cf3-2e07f9946fe8"
-        let clientToken = "pubbf0cffa3634c8a1669f6d592ede0b0ab"
+        let appID = "c10ac78f-b9ac-4a4b-8e3c-470d1dbf1f5f"
+        let clientToken = "pubc6ba83281864b8d1b72d41ac5d366ae1"
         let environment = "staging"
 
         Datadog.initialize(
