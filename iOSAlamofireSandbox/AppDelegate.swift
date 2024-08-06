@@ -10,13 +10,7 @@ import DatadogCore
 import DatadogTrace
 import DatadogRUM
 import DatadogInternal
-import DatadogAlamofireExtension
 import Alamofire
-
-let alamofireSession = Session(
-    interceptor: DDRequestInterceptor(),
-    eventMonitors: [DDEventMonitor()]
-)
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {

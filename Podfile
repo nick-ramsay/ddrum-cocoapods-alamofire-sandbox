@@ -6,11 +6,10 @@ target 'iOSAlamofireSandbox' do
   use_frameworks!
 
   pod 'Alamofire', '~> 5.9'
-  pod 'DatadogCore'
-  pod 'DatadogTrace'
-  pod 'DatadogRUM'
-  pod 'DatadogInternal'
-  pod 'DatadogAlamofireExtension', '~> 2.14'
+  pod 'DatadogCore', '~> 2.6.0'
+  pod 'DatadogTrace', '~> 2.6.0'
+  pod 'DatadogRUM', '~> 2.6.0'
+  pod 'DatadogInternal', '~> 2.6.0'
 
   # Pods for iOSAlamofireSandbox
 

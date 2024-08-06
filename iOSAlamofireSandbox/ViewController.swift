@@ -9,7 +9,6 @@ import UIKit
 import DatadogCore
 import DatadogRUM
 import DatadogInternal
-import DatadogAlamofireExtension
 import Alamofire
 
 
